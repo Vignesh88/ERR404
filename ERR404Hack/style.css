@@ -357,6 +357,10 @@ section{
 
 }
 
+.prview .box-container .box img{
+   height: 20rem;
+   margin:1rem 0;
+}
 
 
 .prview .box-container .box h3{

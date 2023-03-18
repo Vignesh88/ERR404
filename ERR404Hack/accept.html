@@ -31,9 +31,9 @@
 
          <nav class="nav">
             <a href="#home">home</a>
-            <a href="#home1">home1</a>
-            <a href="#home2">home2</a>
-            <a href="#home3">home3</a>
+            <a href="profview.html">Prof View</a>
+            <a href="userview.html">User View</a>
+            <a href="blocktime.html">Blocked time</a>
             <a href="#home4">home4</a>
          </nav>
 
@@ -47,34 +47,16 @@
 
 </header>
 
+<!-- header section ends -->
 
 <section class="request" id="request">
 
-    <h1 class="heading">make appointment</h1>
+    <h1 class="heading">accept<span style="color: skyblue; margin-top: 5rem;"> APPOINTMENT</span></h1>
  
     <form action="post" method="post">
-       <span>From ID :</span>
-       <input type="text" name="name" placeholder="Enter your from Id" class="box" required>
-       <span>To ID :</span>
-       <input type="text" name="name" placeholder="enter to Id" class="box" required>
-       <span>appointment date :</span>
-       <input type="datetime-local" name="date" class="box" required>
-      <!-- <label for="slot" style="font-size: 1.7rem; color: rgb(12, 12, 12);">Book Slot</label>
-
-            <select name="slots" id="slots" style="height: 4rem; font-size: 1.6rem; margin: 2rem;">
-                <option value="1">8AM - 9AM</option>
-                <option value="2">9AM - 10AM</option>
-                <option value="3">10AM - 11AM</option>
-                <option value="4">11AM - 12PM</option>
-                <option value="5">12PM - 1PM</option>
-                <option value="6">3PM - 4PM</option>
-                <option value="8">4PM - 5PM</option>
-                <option value="9">5PM - 6PM</option>
-            </select>-->
-
-         <label for="appt" style="font-size: 1.8rem; color: black;">Select time</label>
-         <input type="time" name="appt" class="box" style="font-size: 1.8rem;">
-       <input type="submit" value="make appointment" name="submit" class="btn">
+       <span>Post ID :</span>
+       <input type="text" name="name" placeholder="post the id" class="box" required>
+       <input type="submit" value="accept" name="submit" class="btn">
     </form>  
  
  </section>
