@@ -375,6 +375,63 @@ section{
    line-height: 2;
 }
 
+.givereview form{
+   border-radius: .5rem;
+   background-color: var(--light-bg);
+   padding:2rem;
+   margin:0 auto;
+   max-width: 50rem;
+}
+
+.givereview form .message{
+   margin-bottom: 2rem;
+   border-radius: .5rem;
+   background-color: var(--blue);
+   padding:1.2rem 1rem;
+   font-size: 1.7rem;
+   color:var(--white);
+   text-align: center;
+}
+
+.givereview form .box{
+   width: 100%;
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+   border-radius: .5rem;
+   background-color: var(--white);
+   padding:1.2rem 1.4rem;
+   font-size: 1.7rem;
+   color:var(--black);
+   text-transform: none;
+}
+
+.givereview form span{
+   font-size: 1.7rem;
+   color:var(--black);
+}
+
+.review .row{
+   min-height: 50vh;
+}
+
+.review .content span{
+   font-size: 2rem;
+   color:var(--blue);
+}
+
+.review .content h3{
+   font-size: 3rem;
+   color:var(--black);
+   margin-top: 1rem;
+}
+
+.review .content p{
+   padding:1rem 0;
+   font-size: 1.4rem;
+   color:var(--light-color);
+   line-height: 2;
+}
+
 
 .footer{
    background-color: var(--light-bg);
